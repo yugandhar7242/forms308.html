@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TSRTC General Bus Pass Application</title>
+</head>
+<body>
+  <div>
+    <img src="https://tgsrtcpass.com/generalbuspass.do?category=Freshg" alt="TSRTC Logo" width="70" height="70">
+    <h1>TELANGANA STATE ROAD TRANSPORT CORPORATION</h1>
+    <h2>GENERAL BUS PASS APPLICATION</h2>
+  </div>
+
+  <!-- Form Section -->
+  <form action="#" method="post">
+    
+    <label for="fullname">Full Name:</label><br>
+    <input type="text" id="fullname" name="fullname" required><br><br>
+
+    <label for="fathername">Father's Name:</label><br>
+    <input type="text" id="fathername" name="fathername" required><br><br>
+
+    <label for="dob">Date of Birth:</label><br>
+    <input type="date" id="dob" name="dob" required><br><br>
+
+    <label for="gender">Gender:</label><br>
+    <input type="radio" id="male" name="gender" value="male" required> Male
+    <input type="radio" id="female" name="gender" value="female"> Female
+    <input type="radio" id="others" name="gender" value="others"> Others<br><br>
+
+    <label for="address">Residential Address:</label><br>
+    <textarea id="address" name="address" rows="3" cols="30" required></textarea><br><br>
+
+    <label for="route">Route (From - To):</label><br>
+    <input type="text" id="route" name="route" required><br><br>
+
+    <label for="passduration">Pass Duration:</label><br>
+    <select id="passduration" name="passduration" required>
+      <option value="">--Select Duration--</option>
+      <option value="1month">1 Month</option>
+      <option value="3months">3 Months</option>
+      <option value="6months">6 Months</option>
+    </select><br><br>
+
+    <label for="photo">Upload Photo:</label><br>
+    <input type="file" id="photo" name="photo" accept="image/*" required><br><br>
+
+    <button type="submit">Submit Application</button>
+
+  </form>
+
+</body>
+</html>
